@@ -21,4 +21,4 @@ Inside directory `/examples` you can find full user flow example
 ```npm run examples```
 
 #### Terminal output sample:
-![Terminal output sample](assets/terminal_output_sample.gif)
+[Terminal output sample](assets/images/terminal_output_sample.gif)
