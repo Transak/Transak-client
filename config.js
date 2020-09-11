@@ -1,8 +1,7 @@
 
 const config = {
-    // baseUrl: "http://localhost:8292/api/v2/",
     baseUrl: "https://staging-api.transak.com/api/v2",
-    // apiKey: "a135bd06-b7f9-4f9e-87f6-c59321f137b2",
+    // apiKey: "",
     api: {
         countries: {
             getCounties: {
