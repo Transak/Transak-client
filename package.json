@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "node index",
+    "examples": "node examples",
     "test": "mocha --reporter spec",
     "build": "build-esm"
   },

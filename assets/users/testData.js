@@ -11,7 +11,7 @@ const demoUser = {
       city: "TIRE HILL",
       postCode: "15959",
       countryCode: "US",
-      document: "../assets/images/demo.jpg",
+      document: "./assets/images/demo.jpg",
       documents: {
         idProof: {
           mimeType: "image/jpeg",

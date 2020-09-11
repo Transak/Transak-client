@@ -179,6 +179,7 @@ const login = async () => {
             properties: {
               emailVerificationCode: {
                 required: true,
+                hidden: true,
                 message: "please enter your emailVerificationCode",
               },
             }
