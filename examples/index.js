@@ -71,6 +71,11 @@ const quote = async () => {
             message: "isBuyOrSell",
             default: "BUY",
           },
+          network: {
+            required: true,
+            message: "network",
+            default: "ethereum",
+          },
         }
     }
     const input = await new Promise((resolve, reject) => {

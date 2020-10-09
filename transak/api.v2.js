@@ -628,6 +628,7 @@ export const Transak = class {
         fiatAmount,
         partnerApiKey = this.apiKey,
         paymentMethodId,
+        network,
     }) {
         const { method, path } = this.config.api.currencies.fetchPrice;
         
@@ -645,6 +646,7 @@ export const Transak = class {
                 ...(fiatAmount ? { fiatAmount } : {}),
                 ...(partnerApiKey ? { partnerApiKey } : {}),
                 ...(paymentMethodId ? { paymentMethodId } : {}),
+                ...(network ? { network } : {}),
             }
         };
 
